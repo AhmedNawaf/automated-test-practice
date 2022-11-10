@@ -7,5 +7,6 @@ function mooncakeSays(message) {
 
   return `${mooncake} ${message}`;
 }
+const currentYear = new Date().getFullYear();
 
 module.exports.mooncakeSays = mooncakeSays;
