@@ -7,7 +7,5 @@ function mooncakeSays(message) {
 
   return `${mooncake} ${message}`;
 }
-const currentYear = new Date().getFullYear();
-const randomNumber = Math.floor(Math.random() * 5) + 1;
-const whiteColor = "#fff";
+const text = "Hello";
 module.exports.mooncakeSays = mooncakeSays;
